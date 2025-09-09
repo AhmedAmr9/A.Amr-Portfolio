@@ -103,7 +103,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -inset-1 rounded-2xl bg-blue-600/40 blur-2xl animate-pulse" />
               <Image
-                src="/Ahmed-Profile.png"
+                src="/Ahmed-Profile.PNG"
                 alt="Ahmed Amr - System Developer"
                 width={280}
                 height={340}

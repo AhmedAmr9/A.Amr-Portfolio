@@ -52,8 +52,10 @@
 
 ### Testing
 
-- [ ] Test responsiveness on mobile/tablet/desktop
-- [ ] Verify form functionality
-- [ ] Check SEO metadata
-- [ ] Test animations and transitions
-- [ ] Validate accessibility
+- [x] Test responsiveness on mobile/tablet/desktop
+- [x] Verify form functionality
+- [x] Check SEO metadata
+- [x] Test animations and transitions
+- [x] Validate accessibility
+- [x] Run linting to check for code errors
+- [x] Run build to ensure production readiness
