@@ -2,6 +2,7 @@
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -99,9 +100,11 @@ export default function Home() {
           <div className={`flex mt-16 md:mt-0 justify-center md:justify-end animate-slide-in-right`}>
             <div className="relative">
               <div className="absolute -inset-1 rounded-2xl bg-blue-600/40 blur-2xl animate-pulse" />
-              <img
+              <Image
                 src="/Ahmed-Profile.png"
                 alt="Ahmed Amr - System Developer"
+                width={280}
+                height={340}
                 className="relative w-56 h-70 md:w-70 md:h-85 rounded-2xl object-cover border border-white/10 shadow-2xl hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -115,7 +118,7 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">About</h2>
           <div className="grid md:grid-cols-3 gap-10">
             <p className="md:col-span-2 text-white/80 leading-relaxed text-lg">
-              I’m Ahmed Amr, a System Developer specializing in JavaScript/TypeScript,
+              I&apos;m Ahmed Amr, a System Developer specializing in JavaScript/TypeScript,
               React/Next.js, Node.js, and modern tooling. I love crafting clean,
               performant interfaces and robust backends. With a passion for problem-solving
               and user experience, I build scalable applications that make a difference.
@@ -278,8 +281,8 @@ export default function Home() {
         <div className="animate-fade-in">
           <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-center">Get In Touch</h2>
           <p className="text-white/70 text-center mb-16 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects.
-            Let's discuss how we can work together to bring your ideas to life.
+            I&apos;m always interested in new opportunities and exciting projects.
+            Let&apos;s discuss how we can work together to bring your ideas to life.
           </p>
 
           <div className="grid md:grid-cols-2 gap-12">
