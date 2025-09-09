@@ -74,7 +74,7 @@ export default function Home() {
               <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></span>
               Available for Work
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-6xl font-bold leading-tight mb-6">
               System Developer building
               <span className="text-blue-500"> Web & Mobile </span>
               experiences.
