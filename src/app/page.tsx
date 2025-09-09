@@ -19,7 +19,7 @@ export default function Home() {
       {/* Navbar */}
       <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur bg-black/60">
         <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="text-lg font-semibold tracking-wide">
+          <Link href="/" className="text-xl font-semibold tracking-wide px-4 md:px-0">
             Ahmed <span className="text-blue-500">Amr</span>
           </Link>
           <nav className="hidden sm:flex items-center gap-6 text-sm">
@@ -38,7 +38,7 @@ export default function Home() {
           </nav>
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="sm:hidden text-white text-xl hover:text-blue-400 transition-colors"
+            className="sm:hidden text-white text-2xl hover:text-blue-400 transition-colors md:p-0 p-2 px-4 md:px-0"
             aria-label="Toggle menu"
           >
             {menuOpen ? '✕' : '☰'}
