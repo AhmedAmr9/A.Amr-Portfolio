@@ -238,10 +238,11 @@ export default function Home() {
       <section id="contact" className="mx-auto max-w-6xl px-4 py-16 md:py-20">
         <div className="animate-fade-in">
           <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-center">Get In Touch</h2>
-          <p className="text-white/70 text-center mb-16 max-w-2xl mx-auto">
-            I&apos;m always interested in new opportunities and exciting projects.
-            Let&apos;s discuss how we can work together to bring your ideas to life.
-          </p>
+     <p className="text-white/70 text-center mb-16 max-w-2xl mx-auto">
+  I&apos;m always interested in new opportunities and exciting projects.
+  Let&apos;s discuss how we can work together to bring your ideas to life.
+</p>
+
 
           <div className="grid md:grid-cols-2 gap-12">
             <div className="animate-slide-in-left">

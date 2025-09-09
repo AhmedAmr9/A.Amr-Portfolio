@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // اجبر Next.js يشتغل بـ webpack مش turbopack
-  experimental: {
-    turbo: {
-      rules: {}, // لازم تحط object فاضية مش Boolean
-    },
+  reactStrictMode: true,
+  images: {
+    domains: [], // لو عندك روابط خارجية للصور اضفها هنا
   },
+  // شيل experimental.turbo بالكامل عشان تبقى على Webpack
 };
+
 module.exports = nextConfig;
