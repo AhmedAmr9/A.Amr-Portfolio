@@ -4,6 +4,8 @@ import ContactForm from "@/components/ContactForm";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
+/* eslint-disable react/no-unescaped-entities */
+
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
