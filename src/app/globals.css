@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-@import "tailwindcss";
 
 @tailwind base;
 @tailwind components;
@@ -19,6 +18,7 @@
   --error: #ef4444;
 }
 
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -34,6 +34,8 @@
     --error: #f87171;
   }
 }
+
+/* باقي CSS زي typography وanimations وcustom classes */
 
 html {
   scroll-behavior: smooth;
@@ -145,7 +147,7 @@ p {
 }
 
 .btn-secondary {
-  @apply px-6 py-3 rounded-xl border border-white/15 hover:bg-white/5 transition-all duration-200;
+  @apply px-6 py-3 rounded-xl border border-white/20 hover:bg-white/5 transition-all duration-200;
 }
 
 .card {
@@ -153,7 +155,7 @@ p {
 }
 
 .input {
-  @apply bg-transparent border border-white/15 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition-colors duration-200;
+  @apply bg-transparent border border-white/20 rounded-lg px-4 py-3 outline-none focus:border-blue-500 transition-colors duration-200;
 }
 
 .gradient-bg {
