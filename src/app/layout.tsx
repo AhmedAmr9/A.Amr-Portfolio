@@ -1,6 +1,56 @@
 // src/app/layout.tsx
 import "./globals.css";
 import { ReactNode } from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://a-amr-portfolio.vercel.app"),
+
+  title: "Ahmed Amr - System Developer Portfolio",
+
+  description:
+    "Portfolio of Ahmed Amr, a System Developer specializing in React, Next.js, Node.js and TypeScript.",
+
+  keywords: [
+    "Ahmed Amr",
+    "System Developer",
+    "React",
+    "Next.js",
+    "Node.js",
+    "TypeScript",
+    "Web Development",
+  ],
+
+  authors: [{ name: "Ahmed Amr" }],
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    title: "Ahmed Amr - System Developer Portfolio",
+    description:
+      "Explore my projects and skills in web development.",
+    url: "https://a-amr-portfolio.vercel.app",
+    siteName: "Ahmed Amr Portfolio",
+    images: ["/Ahmed-Profile.png"],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Ahmed Amr - System Developer Portfolio",
+    description:
+      "Explore my projects and skills in web development.",
+    images: ["/Ahmed-Profile.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   const structuredData = {
@@ -9,11 +59,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     "name": "Ahmed Amr",
     "jobTitle": "System Developer",
     "description": "System Developer specializing in web and mobile development with React, Next.js, Node.js",
-    "url": "https://your-portfolio-domain.com",
+    "url": "https://a-amr-portfolio.vercel.app",
     "image": "/Ahmed-Profile.png",
     "sameAs": [
-      "https://linkedin.com/in/your-handle",
-      "https://github.com/your-handle"
+      "https://linkedin.com/in/ahmed-amr-dev",
+      "https://github.com/AhmedAmr9"
     ],
     "knowsAbout": [
       "React",
